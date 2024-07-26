@@ -16,7 +16,3 @@ You can find my CV here: [Klein's Curriculum Vitae](../assets/Curriculum_Vitae.p
 [Email](yyyyyyuany@google.com) / [Github](https://github.com/WXyuany) / [Wechat/Phone] (../images/wechat.jpg) / (151-7714-7235)
 
 A data-driven personal website
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
