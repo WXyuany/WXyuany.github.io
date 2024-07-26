@@ -14,5 +14,3 @@ I am very fortunate to be advised by [Prof. Chen Hui] of Smartcar Lab from [Scho
 You can find my CV here: [Klein's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
 [Email](yyyyyyuany@google.com) / [Github](https://github.com/WXyuany) / [Wechat/Phone] (../images/wechat.jpg) / (151-7714-7235)
-
-A data-driven personal website
