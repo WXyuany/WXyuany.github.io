@@ -1,0 +1,28 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+  <body class="academic-body">
+    <a class="skip-link sr-only" href="#main">Skip to content</a>
+    <div class="academic-shell{% if page.url == '/research-project/' %} academic-shell--projects{% endif %}">
+      {% include academic-sidebar.html %}
+      <main id="main" class="academic-main" role="main">
+        <header class="academic-site-header">
+          <h1><a href="{{ '/' | relative_url }}">{{ site.data.profile.site_title }} <span>&mdash; <strong>{{ site.data.profile.site_title_zh }}</strong></span></a></h1>
+        </header>
+        <div class="academic-divider"></div>
+        <article class="academic-article" itemscope itemtype="http://schema.org/CreativeWork">
+          {{ content }}
+        </article>
+      </main>
+    </div>
+  </body>
+</html>

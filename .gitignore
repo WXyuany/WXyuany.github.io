@@ -10,3 +10,15 @@ Gemfile.lock
 # Ingore files created by npm
 node_modules
 package-lock.json
+
+# Local Ruby dependencies and Bundler configuration
+.bundle/
+vendor/bundle/
+
+# Original high-resolution project videos stay local; GitHub Pages uses the generated GIFs.
+_data/videos/
+videos/*.mp4
+videos/*.mov
+
+# macOS metadata
+.DS_Store

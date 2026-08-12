@@ -18,6 +18,31 @@ See more info at https://academicpages.github.io/
 
 ## Running Locally
 
+### Recommended: Conda on macOS/Linux
+
+The repository includes a reproducible Conda environment and a live-reload
+launcher. From the repository root, run:
+
+```bash
+chmod +x scripts/local_preview.sh
+./scripts/local_preview.sh
+```
+
+The first run creates the `wxy-homepage` environment and installs the Ruby
+gems. The site is then available at http://127.0.0.1:4000. Jekyll will rebuild
+the site when Markdown, YAML, HTML, SCSS, or other source files change. Use
+`PORT=4001 ./scripts/local_preview.sh` when port 4000 is already in use.
+
+The most frequently edited files are:
+
+- `EDITING_GUIDE.md`: step-by-step personal homepage editing guide
+- `_data/profile.yml`: the single daily-edit configuration for your profile and homepage
+- `_config.yml`: name, bio, avatar, contact links, and site-wide settings
+- `_pages/about.md`: homepage introduction
+- `_data/navigation.yml`: top navigation
+- `_publications/`, `_talks/`, `_teaching/`, `_portfolio/`: content collections
+- `images/` and `files/`: photos, icons, papers, slides, and CV files
+
 When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
 
 1. Clone the repository and made updates as detailed above.

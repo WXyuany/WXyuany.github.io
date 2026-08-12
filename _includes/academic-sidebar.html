@@ -1,0 +1,20 @@
+<aside class="academic-sidebar" aria-label="Site navigation">
+  <div class="academic-sidebar__inner">
+    <a class="academic-avatar" href="{{ '/' | relative_url }}" aria-label="Home">
+      <img src="{{ '/images/' | append: site.data.profile.author.avatar | relative_url }}" alt="{{ site.data.profile.author.name }}">
+    </a>
+
+    <nav class="academic-social" aria-label="Academic profiles">
+      <a href="{{ site.data.profile.author.googlescholar }}" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+      <a href="https://github.com/{{ site.data.profile.author.github }}" aria-label="GitHub" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+      <a href="{{ site.data.profile.author.linkedin }}" aria-label="LinkedIn" title="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+    </nav>
+
+    <div class="academic-sidebar__rule"></div>
+
+    <nav class="academic-page-nav" aria-label="Pages">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="is-current"{% endif %}>Home</a>
+      <a href="{{ '/research-project/' | relative_url }}"{% if page.url == '/research-project/' %} class="is-current"{% endif %}>Research Project</a>
+    </nav>
+  </div>
+</aside>

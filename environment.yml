@@ -1,0 +1,9 @@
+name: wxy-homepage
+channels:
+  - conda-forge
+dependencies:
+  - ruby=3.2
+  - nodejs=20
+  - git
+  - c-compiler
+  - cxx-compiler

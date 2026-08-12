@@ -1,0 +1,71 @@
+# 日常修改个人主页时，优先编辑这个文件。
+# 图片放在 images/，可直接填写文件名，例如 wxy.png。
+
+site_title: "XiyuanWang"
+site_title_zh: "王熙源"
+
+author:
+  name: "Wang Xiyuan"
+  avatar: "wxy1.png"
+  pronouns: "he"
+  bio: "personal resume"
+  location: "HongKong, China"
+  employer: "Chinese University of Hong Kong"
+  email: "yyyyyyuany@google.com"
+
+  # 学术主页和社交账号。不需要的项目留空即可。
+  googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  orcid: "https://orcid.org/0009-0009-8927-7359"
+  github: "WXyuany"
+  # 暂时使用 LinkedIn 首页，请替换为你的个人主页链接。
+  linkedin: "https://www.linkedin.com/"
+
+home:
+  intro: |
+    I am a <span class="academic-highlight">postgraduate student at The Chinese University of Hong Kong</span>, where my work focuses on <span class="academic-highlight">embodied intelligence and humanoid robotics</span>.
+
+    I completed my undergraduate studies in <span class="academic-highlight">Robotics Engineering</span> at Lanzhou University of Technology. Before joining CUHK, I worked as a <strong>research assistant</strong> under <span class="academic-highlight">Professor Donglin Wang at Westlake University</span>.
+  cv_label: "Curriculum Vitae"
+  # 上传 CV 到 files/ 后，再填写文件名，例如 /files/Curriculum_Vitae.pdf。
+  cv_url: ""
+  links:
+    - label: "Email"
+      url: "mailto:yyyyyyuany@google.com"
+    - label: "Github"
+      url: "https://github.com/WXyuany"
+    - label: "Wechat/Phone"
+      url: "/images/Wechat.jpg"
+    - label: "151-7714-7235"
+      url: "tel:15177147235"
+  research_title: "Research Interests"
+  research_intro: |
+    My research interests center on **whole-body motion control for humanoid robots**, as well as **motion planning, simultaneous localization and mapping (SLAM), and perception for indoor and outdoor environments**. More recently, I have been exploring world-model-based robotic brain perception and control (WAM), with the goal of improving a robot's environmental understanding, decision-making, and autonomous execution of complex tasks.
+
+    I have developed and deployed algorithms for humanoid robots with different body scales and mechanical architectures, including the **Unitree G1, Booster Robotics PM01, Westlake Robot O1, and Kepler K2**, as well as a confidential Russian humanoid platform. In addition, I have implemented motion-planning and perception strategies for indoor and outdoor locomotion over uneven terrain on the Unitree G1 and quadruped robot platforms.
+
+    My previous work focused primarily on humanoid motion-control algorithms and full-body motion tracking. Using a motion-capture suit or a VR headset, I developed teleoperation systems that enable humanoid robots to track human motion in real time with low latency and high fidelity, forming an embodied-avatar system ([project description](https://www.wlrobo.com/module1)). Currently, I am particularly interested in integrating **vision-language models (VLMs) with low-level control**, enabling embodied-intelligence systems to perform complex tasks with greater autonomy and efficiency.
+  research_areas:
+    - "Whole-body motion control for humanoid robots"
+    - "Motion planning and SLAM for indoor and outdoor environments"
+    - "World-model-based robotic perception and control (WAM)"
+    - "Integration of vision-language models with low-level control"
+  education_title: "Education"
+  education:
+    - degree: "Postgraduate Student"
+      institution: "The Chinese University of Hong Kong"
+      detail: "Hong Kong, China"
+    - degree: "Robotics Engineering"
+      institution: "Lanzhou University of Technology"
+      detail: "Undergraduate studies"
+  experience_title: "Research Experience"
+  experience:
+    - role: "Research Assistant"
+      institution: "Westlake University"
+      detail: "Worked under Professor Donglin Wang"
+  awards:
+    - "Rising Star Award, RoboMaster 2023: Infantry Confrontation"
+    - "2nd Prize, The 6th China University Intelligent Robot Creative Competition"
+    - "Presided over the 2023 National College Student Innovation Plan and Scientific Research Fund"
+    - "1st Prize, The 19th National Smart Car Competition for College Students: Outdoor Car Challenge Group (ROS)"
+    - "1st Prize, The 18th National Smart Car Competition for College Students: Unicycle Group (ROS)"
+    - "2021 School First Class Scholarship and Outstanding Students"

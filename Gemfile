@@ -10,6 +10,10 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
+# github-pages currently resolves ActiveSupport 8.x, which requires a native
+# bigdecimal build that is unnecessary for this static site and can fail on
+# machines without a configured compiler toolchain.
+gem "activesupport", "< 8"
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.

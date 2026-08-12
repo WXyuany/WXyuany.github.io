@@ -7,14 +7,15 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "Nanning-Guangxi-China"
-title                    : "Yuany Klein"
+# 日常个人资料请编辑 _data/profile.yml；本文件主要用于网站和 Jekyll 技术配置。
+locale                   : "HongKong-China"
+title                    : "Xiyuan Wang"
 title_separator          : "-"
 name                     : &name "Wang Xiyuan"
 description              : &description "A man who works hard and loves life"
 url                      : https://WXyuany.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "WXyuany/WXyuany.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -22,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "../images/wxy.png"
-  name             : "Yuany Klein"
+  name             : "Xiyuan Wang"
   pronouns         : "he"
   bio              : "A man who works hard and loves life"
   location         : "Nanning-Guangxi-China"

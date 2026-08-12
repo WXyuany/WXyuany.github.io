@@ -1,16 +1,57 @@
 ---
+layout: academic
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
-redirect_from: 
+title: ""
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I'm a third year undergraduate student from [School of Electrical Engineering and Information Engineering](https://dianqi.lut.edu.cn/), [Lanzhou University of Technology](https://www.lut.edu.cn/).       My research interest includes Computer Vision, Robot Motion Perception and Control, Machine Learning.
+<section class="academic-section" id="introduction">
+  <h2>Introduction</h2>
+  <div class="academic-copy academic-introduction">
+    {{ site.data.profile.home.intro | markdownify }}
+  </div>
+</section>
 
-I am very fortunate to be advised by [Prof. Chen Hui] of Smartcar Lab from [School of Electrical Engineering and Information Engineering](https://dianqi.lut.edu.cn/), Lanzhou University of Technology.   I was advised by [Prof. Lin Jie] from [School of Electrical Engineering and Information Engineering](https://dianqi.lut.edu.cn/), Lanzhou University of Technology.
+<section class="academic-section" id="research-interests">
+  <h2>Research Interests</h2>
+  <div class="academic-copy academic-research">
+    {{ site.data.profile.home.research_intro | markdownify }}
+    <ul class="academic-list">
+      {% for area in site.data.profile.home.research_areas %}
+        <li>{{ area }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
 
-You can find my CV here: [Klein's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+<section class="academic-section" id="publications">
+  <h2>Publications</h2>
+  <div class="academic-publications">
+    {% assign featured_publications = site.publications | where: "featured", true %}
+    {% for post in featured_publications reversed %}
+      <article class="academic-publication">
+        <p class="academic-publication__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
+        <p class="academic-publication__meta">{{ post.citation | default: post.venue }}{% if post.date %} ({{ post.date | date: "%Y" }}){% endif %}</p>
+        <p class="academic-publication__links">
+          {% if post.paperurl %}<a href="{{ post.paperurl }}">[Paper]</a>{% endif %}
+          {% if post.slidesurl %}<a href="{{ post.slidesurl }}">[Slides]</a>{% endif %}
+        </p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
 
-[Email](yyyyyyuany@google.com) / [Github](https://github.com/WXyuany) / [Wechat/Phone] (../images/wechat.jpg) / (151-7714-7235)
+<section class="academic-section" id="awards">
+  <h2>Awards</h2>
+  <div class="academic-copy academic-awards">
+    {% if site.data.profile.home.awards and site.data.profile.home.awards != empty %}
+      <ul class="academic-list">
+        {% for award in site.data.profile.home.awards %}<li>{{ award }}</li>{% endfor %}
+      </ul>
+    {% else %}
+      <p class="academic-muted">Awards will be added here.</p>
+    {% endif %}
+  </div>
+</section>

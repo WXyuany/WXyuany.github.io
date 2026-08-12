@@ -1,0 +1,31 @@
+- title: "1. G1 Whole-Body Control"
+  description: "Whole-body control, motion tracking, and deployment experiments on the Unitree G1 humanoid robot."
+  video: "/videos/gif/g1全身控制.gif"
+
+- title: "2. O1 Uneven-Terrain Locomotion"
+  description: "Perception-aware locomotion and motion planning over uneven indoor and outdoor terrain on the Westlake Robot O1 platform."
+  video: "/videos/gif/o1不平坦地形.gif"
+
+- title: "3. K2 Whole-Body Control"
+  description: "Whole-body control and motion execution experiments on the Kepler K2 humanoid robot."
+  video: "/videos/gif/k2全身控制.gif"
+
+- title: "4. PM01 Whole-Body Control"
+  description: "Whole-body control and algorithm deployment experiments on the Booster Robotics PM01 humanoid robot."
+  video: "/videos/gif/pm全身控制.gif"
+
+- title: "5. Multi-Robot Coordination"
+  description: "Selected demonstrations of multi-robot coordination and coordinated motion control."
+  video: "/videos/gif/群控合集.gif"
+
+- title: "6. Dataset Development"
+  description: "A dataset collection and preparation workflow for embodied-robot perception, learning, and control."
+  video: "/videos/gif/数据制作.gif"
+
+- title: "7. World-Model Simulation Experiments (WAM)"
+  description: "Simulation experiments on world-model-based robotic perception and control (WAM)."
+  video: "/videos/gif/wam.gif"
+
+- title: "8. Large-Scale Outdoor High-Precision Mapping and Navigation"
+  description: "Large-scale outdoor high-precision mapping and navigation for mobile robots."
+  video: "/videos/gif/slam建图导航.gif"

@@ -1,6 +1,7 @@
 ---
 title: "A Review of Point Cloud 3D Object Detection Methods based  on  Deep  Learning"
 collection: publications
+featured: true
 permalink: /publication/2023-12-14-PointCloud-Review
 excerpt: 'This paper is based on introducing the coupling relationship between deep learning and three-dimensional point clouds, this paper reviews the three characteristics and research problems of point clouds, randomness, sparsity, and unstructuredness, and discusses three-dimensional point cloud target detection based on deep neural networks, including point cloud detection techniques following graph convolution, detection techniques following the original point cloud, and detection algorithms based on fusion processing of graph convolution and the original point cloud. Focusing on future research direction and development, the field of point cloud analysis is currently undergoing further development through the application of deep learning techniques.'
 date: 2023-12-14
